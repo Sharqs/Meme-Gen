@@ -1,0 +1,47 @@
+html,body{
+    width: 100%;
+    background-image: url(meme_images/Thanos-Snap.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+header{
+    padding: 10 px;
+    font-size: 2.5em;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    color: rgb(250, 118, 250);
+}   
+p{
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    color: rgb(255, 146, 255);
+    font-size: 1.5em;
+}
+div.added {
+    max-width: 60%;
+    position: relative;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+    color: white;
+}
+
+.top {  
+    margin:0;
+    font-size: 2em;
+    position: absolute;
+    display: inline-block;
+    top: 2%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+}
+.bot {  
+    margin:0;
+    font-size: 2em;
+    position: absolute;
+    display: inline-block;
+    top: auto;
+    bottom: 2%;
+    right: 0%;
+    left: 0%;
+    
+}
